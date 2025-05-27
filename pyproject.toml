@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geolime"
+version = "1.4.0"
+description = "GeoLime Geostats Library"
+readme = "README.md"
+requires-python = ">=3.8"
+license-files = ["LICEN[CS]E*"]
+authors = [{ name = "DeepLime", email = "contact@deeplime.io" }]
+keywords = ["geolime", "geostats"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/deeplime-io/geolime-pypi-package"
+Repository = "https://github.com/deeplime-io/geolime-pypi-package"
+
+[tool.setuptools]
+packages = ["geolime"]
